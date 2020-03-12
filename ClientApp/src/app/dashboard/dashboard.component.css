@@ -1,0 +1,18 @@
+.bg1
+{
+    margin-left: 200px;
+/*background-image: url('../../assets/images/14Asset23.png');*/
+background-color: pink;
+width: 1059px;
+height: 996px;
+}
+.topBar
+{
+    display: flex;
+    height:50px;
+}
+.searchBar
+{
+    background-image: url('../../assets/images/14Asset3.png');
+    margin-bottom: 10px;
+}

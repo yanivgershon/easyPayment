@@ -1,0 +1,24 @@
+<div style="display: flex;">
+    <div class="userImg">
+        {{historyData.user.name}}
+    </div>
+    <div class="userPhone">
+        {{historyData.user.phone}}
+    </div>
+    <div class="userAddess">
+        {{historyData.user.phone}}
+    </div>
+    <div class="NumPayments">
+        
+    </div>
+    <div class="PaidAmount">
+        {{historyData.Amount}}
+    </div>
+    <div class="PaidDate">
+        
+    </div>
+    <div *ngIf="historyData.type==1" class="PaidDate"></div>
+    <div *ngIf="historyData.type==2" class="PaidDate"></div>
+    <div *ngIf="historyData.type==3" class="PaidDate"></div>
+    <div *ngIf="historyData.type==4" class="PaidDate"></div>
+</div>
