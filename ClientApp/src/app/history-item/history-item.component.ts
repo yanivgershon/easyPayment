@@ -12,7 +12,9 @@ export class HistoryItemComponent implements OnInit {
   @Input() historyData
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit()
+  {
+    console.log('historyData',this.historyData)
   }
 
 }

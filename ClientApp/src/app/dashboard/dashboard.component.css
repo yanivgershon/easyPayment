@@ -16,3 +16,6 @@ height: 996px;
     background-image: url('../../assets/images/14Asset3.png');
     margin-bottom: 10px;
 }
+ul {
+  list-style-type: none;
+}

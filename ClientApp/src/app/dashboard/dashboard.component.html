@@ -13,13 +13,13 @@
         <img src="../../assets/images/14Asset11.png"  style="margin-left: 10px;">
         <img src="../../assets/images/14Asset12.png"  style="margin-left: 10px;">
         <img src="../../assets/images/14Asset13.png" style="margin-left: 10px;" >
-        
+
     </div>
     <ul>
-        <li *ngFor="let historyData history">
+        <li *ngFor="let historyData of history">
             <app-history-item [historyData]=historyData></app-history-item>
         </li>
     </ul>
-    
+
 </div>
-  
+

@@ -9,16 +9,16 @@
         {{historyData.user.phone}}
     </div>
     <div class="NumPayments">
-        
+
     </div>
     <div class="PaidAmount">
         {{historyData.Amount}}
     </div>
     <div class="PaidDate">
-        
+
     </div>
-    <div *ngIf="historyData.type==1" class="PaidDate"></div>
-    <div *ngIf="historyData.type==2" class="PaidDate"></div>
-    <div *ngIf="historyData.type==3" class="PaidDate"></div>
-    <div *ngIf="historyData.type==4" class="PaidDate"></div>
+    <div *ngIf="historyData.paymentType==1" class="BuisnessPaid"></div>
+    <div *ngIf="historyData.paymentType==2" class="BuissnessRecived"></div>
+    <div *ngIf="historyData.paymentType==3" class="BuisnessRequest"></div>
+    <div *ngIf="historyData.paymentType==4" class="BuisnessOwn"></div>
 </div>
